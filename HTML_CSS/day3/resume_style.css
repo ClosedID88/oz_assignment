@@ -1,0 +1,91 @@
+/* 기본 */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  font-family: 'Pretendard', system-ui, sans-serif;
+  background: rgb(12, 12, 59);
+  color: white;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* 카드 */
+.card {
+  background: black;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 12px black;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+  
+}
+
+#profile__info {
+  flex: 1;
+  margin-bottom: 20px
+}
+
+h1 {
+  font-size: xx-large;
+  margin-bottom: 0;
+}
+
+h1, h2 {
+  color: skyblue;
+  border-bottom: 2px solid gray;
+}
+
+/* 프로필 */
+.profile_img {
+  width: 100px;
+  height: 100px;
+  border: 3px solid pink;
+  border-radius: 100px;
+}
+
+#profile__main { font-size: large; font-weight: bold; color: pink; margin-bottom: 12px; }
+
+
+.repo_btn {
+  color: inherit;
+  border: none;
+}
+.repo_btn:hover { color: gray; }
+
+.submit_btn {
+  padding: 11px 20px;
+  margin-top: 4px;
+  background: pink;
+  border: none;
+  cursor: pointer;
+}
+.submit_btn:hover { background: deeppink; }
+
+/* 취미 */
+.pref_list { padding-left: 24px; }
+.pref_list li:not(:last-child) { margin-bottom: 10px; }
+.pref_list li::marker { color: pink; font-weight: bold; }
+
+/* 경력표 */
+.career_table { width: 100%; text-align: left; }
+.career_table th, .career_table td { padding: 12px 16px; border: 1px solid gray; }
+
+
+/* 전송 */
+.input_group input {
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid gray;
+  background: navy;
+  color: white;
+}
+.input_group input:focus { outline: none; border-color: pink; }
+
+/* 푸터 */
+.footer { text-align: center; color: gray; font-size: x-small; padding: 10px 0; }

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>자기소개서</title>
+  <link rel="stylesheet" href="resume_style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+  <div>
+    <!-- 상단 프로필 영역 (Semantic: header) -->
+    <header  id="header">
+      <div id="profile__info">
+        <h1>김영화</h1>
+        <i class="fa-brands fa-github"></i>
+        <span>
+          <!-- &nbsp; : 줄바꿈 되지 않는 공백 -->
+          <i class="fa-solid fa-mobile-screen"></i>&nbsp;010-1234-5678
+        </span>
+        <span>
+          <i class="fa-solid fa-at"></i>&nbsp;342810@naver.com    
+        </span>
+        <span>
+          <i class="fa-brands fa-github"></i>
+          <a href="https://github.com/ClosedID88/oz_assignment.git" target="_blank" class="repo_btn">
+          김영화의 GitHub
+        </a>
+        </span>
+      </div>
+        <img src="./smile.png" alt="Profile Picture" class="profile_img">
+    </header>
+
+
+    <!-- 본문 콘텐츠 영역 (Semantic: main & section) -->
+    <main>
+      <section class="card">
+              <div class="profile">
+        <p id="profile__main">"바이오 전문성에 AI 역량을 더하는 인재, 김영화입니다.
+          AI 헬스케어 부트캠프에 참여하여 헬스케어 데이터를 이해하고 분석하는 역량을 기르는 동시에,
+           인공지능 기술을 기존의 연구개발 경험과 연결할 수 있는 방법을 배우고 있습니다."</p>
+
+        <div>
+          <ul class="info_list">
+            <li><strong>나이:</strong> 만 29세</li>
+            <li><strong>출생년도:</strong> 1998년</li>
+            <li><strong>성별:</strong> 남성</li>
+            <li><strong>거주지:</strong> 경상남도 양산시 물금읍</li>
+          </ul>
+        </div>
+      </div>
+      </section>
+      <section class="card">
+        <h2>Hobby &amp; Preference</h2>
+        <ol type="i" class="pref_list">
+          <li><strong>취미:</strong> 애니메이션 감상, 프라모델·무기 조립</li>
+          <li><strong>좋아하는 음식:</strong> 라면, 에너지 드링크</li>
+          <li><strong>좋아하는 영화:</strong> 스트라 스텔라</li>
+          <li><strong>좋아하는 책:</strong> 라이트노벨 전반</li>
+          <li><strong>좋아하는 노래 장르:</strong> 애니메이션 주제가</li>
+        </ol>
+      </section>
+
+      <section class="card">
+        <h2>Career &amp; Work Experience</h2>
+        <table class="career_table">
+          <thead>
+            <tr>
+              <th>소속/공방</th>
+              <th>담당 파트</th>
+              <th>주요 직무</th>
+              <th>활동 기간</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>더프의 무기 공방 (블루홀)</td>
+              <td>수중 화기 및 장비 개발</td>
+              <td>작살총, 수중 소총, 폭탄 제작 및 강화</td>
+              <td>2022.10.26 ~ </td>
+            </tr>
+            <tr>
+              <td>방구석 밀리터리 연구소</td>
+              <td>오타쿠 영혼 주입실</td>
+              <td>2D 감성 충전 및 신무기 아이디어 구상</td>
+              <td>2023.10.26 ~ </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="card">
+        <h2>Send Cover Letter</h2>
+        <form action="" class="contact-form">
+          <div class="input_group">
+            <label for="emailInput">담당자 이메일</label>
+            <input id="emailInput" type="email" placeholder="email@example.com" required>
+          </div>
+          <div class="input_group">
+            <label for="companyInput">회사명</label>
+            <input id="companyInput" type="text" placeholder="(주)Paper Company" required>
+          </div>
+          <button type="submit" class="submit_btn">이력서 전송하기</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- 하단 푸터 영역 (Semantic: footer) -->
+    <footer class="footer">
+      <p>&copy; 2026 Duff's Weapon Workshop. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
