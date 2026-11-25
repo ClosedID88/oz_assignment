@@ -1,0 +1,50 @@
+body {
+    max-width: 720px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+
+}
+
+div {
+    background-color: white;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin-bottom: 18px;
+
+}
+
+
+h1 {
+    margin-bottom: 24px;
+    font-size: 1.8rem;
+}
+
+h2 {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-size: 1.25rem;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid gray;
+    margin-bottom: 12px;
+}
+
+ol {
+    padding-left: 2rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+
+div:hover {
+    box-shadow: inset 0 0 0 2px skyblue; /* 안쪽으로 2px 테두리 추가 */
+}
+div:hover .bold {
+    font-weight: bold;
+}
